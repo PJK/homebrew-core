@@ -1,15 +1,8 @@
 class Libcbor < Formula
   desc "CBOR protocol implementation for C and others"
   homepage "http://libcbor.org/"
-  url "https://github.com/PJK/libcbor/archive/v0.5.0.tar.gz"
-  sha256 "9bbec94bb385bad3cd2f65482e5d343ddb97e9ffe261123ea0faa3bfea51d320"
-
-  bottle do
-    cellar :any
-    sha256 "8a4728ac8ec7eac79e8180f97e517e7c4c76fa5c0fd6d097f00732b248e886ff" => :catalina
-    sha256 "397ef559af418180217ec90e70e62324ea226576e2ce75b86daa4405bba6fd57" => :mojave
-    sha256 "7f5447e45af6348432021bac3912e0029904ae86a06f6945a77c78d119e40e36" => :high_sierra
-  end
+  url "https://github.com/PJK/libcbor/archive/v0.6.0.tar.gz"
+  sha256 "ad97dfe6462a28956be38c924a5a557acf303d8454ca121e02150a5b87e03ee7"
 
   depends_on "cmake" => :build
 
